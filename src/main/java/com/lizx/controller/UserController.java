@@ -20,7 +20,7 @@ public class UserController {
 	@RequestMapping("list")
 	@ResponseBody
 	public List<Map<String, Object>> list(){
-		System.out.println("我是另个端dd口");
+		System.out.println("我是ssssssss另个端dd口");
 		List<Map<String, Object>> list = userService.list();
 		return list;
 	}
